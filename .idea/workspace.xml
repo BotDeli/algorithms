@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f13b081-a6b0-44a0-b76a-2991b8ddc47c" name="Changes" comment="bmh">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
@@ -24,6 +32,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -38,6 +47,24 @@
     "settings.editor.selected.configurable": "go.sdk"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="findMaxPrefix_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <working_directory value="$PROJECT_DIR$/findMaxLengthPrefix" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="algorithms" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.findMaxPrefix_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
