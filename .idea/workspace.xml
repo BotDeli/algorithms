@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f13b081-a6b0-44a0-b76a-2991b8ddc47c" name="Changes" comment="bmh">
-      <change afterPath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix.go" beforeDir="false" afterPath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
