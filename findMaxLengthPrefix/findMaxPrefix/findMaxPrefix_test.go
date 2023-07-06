@@ -1,4 +1,4 @@
-package findMaxLengthPrefix
+package findMaxPrefix
 
 import "testing"
 
@@ -55,5 +55,12 @@ func TestLongStr(t *testing.T) {
 	maxLength := findMaxLengthPrefix("abccdeujbkabccdeuj")
 	if maxLength != 8 {
 		t.Errorf("expected maxLength to be 8, got %d", maxLength)
+	}
+}
+
+func TestFindMaxSuffix(t *testing.T) {
+	maxLength := findMaxLengthPrefix("lilila")
+	if maxLength != 3 {
+		t.Errorf("expected maxLength to be 4, got %d", maxLength)
 	}
 }

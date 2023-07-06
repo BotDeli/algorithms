@@ -1,4 +1,4 @@
-package findSubstringInString
+package Boyera
 
 // Алгоритм поиска подстроки в строке методом Бойера-Мура-Хорспула
 

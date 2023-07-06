@@ -1,16 +1,12 @@
-package findMaxLengthPrefix
+package findMaxPrefix
 
 func findMaxLengthPrefix(str string) int {
 	if len(str) < 2 {
 		return 0
 	}
-	lengths := getArrayMaxLengthPrefix(str)
-	return lengths[len(str)-1]
-}
-
-func getArrayMaxLengthPrefix(str string) []int {
 	lengths := make([]int, len(str))
 	left, right := 0, 1
+	var max int
 	for right < len(str) {
 		if str[left] == str[right] {
 			lengths[right] = left + 1
@@ -22,6 +18,9 @@ func getArrayMaxLengthPrefix(str string) []int {
 		} else {
 			left = lengths[left-1]
 		}
+		if max < lengths[right-1] {
+			max = lengths[right-1]
+		}
 	}
-	return lengths
+	return max
 }

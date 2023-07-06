@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f13b081-a6b0-44a0-b76a-2991b8ddc47c" name="Changes" comment="bmh">
+      <change afterPath="$PROJECT_DIR$/findSubstringInString/Knuta/Knuta.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/findSubstringInString/Knuta/Knuta_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix.go" beforeDir="false" afterPath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix.go" beforeDir="false" afterPath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix/findMaxPrefix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix/findMaxPrefix_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/findSubstringInString/Boyera.go" beforeDir="false" afterPath="$PROJECT_DIR$/findSubstringInString/Boyera/Boyera.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/findSubstringInString/Boyera_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/findSubstringInString/Boyera/Boyera_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,24 +34,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/kare",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "go.sdk"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kare&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.sdk&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix" />
+      <recent name="$PROJECT_DIR$/findSubstringInString/Boyera" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.Knuta_test.go">
+    <configuration name="Knuta_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <working_directory value="$PROJECT_DIR$/findSubstringInString/Knuta" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="algorithms" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/findSubstringInString/Knuta/Knuta_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <configuration name="findMaxPrefix_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <working_directory value="$PROJECT_DIR$/findMaxLengthPrefix" />
@@ -58,8 +81,21 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="findMinDistance_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <working_directory value="$PROJECT_DIR$/findSubstringInString/graphs/findMinDistance" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="algorithms" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/findSubstringInString/graphs/findMinDistance/findMinDistance_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Knuta_test.go" />
+        <item itemvalue="Go Test.findMinDistance_test.go" />
         <item itemvalue="Go Test.findMaxPrefix_test.go" />
       </list>
     </recent_temporary>

@@ -1,4 +1,4 @@
-package findSubstringInString
+package Boyera
 
 import "testing"
 
