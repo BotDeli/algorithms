@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f13b081-a6b0-44a0-b76a-2991b8ddc47c" name="Changes" comment="bmh">
-      <change afterPath="$PROJECT_DIR$/findSubstringInString/Knuta/Knuta.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/findSubstringInString/Knuta/Knuta_test.go" afterDir="false" />
+    <list default="true" id="6f13b081-a6b0-44a0-b76a-2991b8ddc47c" name="Changes" comment="algorithms">
+      <change afterPath="$PROJECT_DIR$/graphs/BFS/BFS/BFS.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/BFS/BFS/BFS_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/BFS/sellerMango/sellerManog.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/BFS/sellerMango/sellerManog_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Dekstri/Dekstri.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Dekstri/Dekstri_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Graph/graph.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Graph/graph_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luna/bankCard/bankCard.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luna/bankCard/bankCard_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/queue_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix.go" beforeDir="false" afterPath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix/findMaxPrefix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix/findMaxPrefix_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/findSubstringInString/Boyera.go" beforeDir="false" afterPath="$PROJECT_DIR$/findSubstringInString/Boyera/Boyera.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/findSubstringInString/Boyera_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/findSubstringInString/Boyera/Boyera_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +51,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kare&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kare/GolandProjects/algorithms&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;go.sdk&quot;
@@ -53,50 +59,73 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/graphs/BFS/BFS" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix" />
       <recent name="$PROJECT_DIR$/findSubstringInString/Boyera" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Knuta_test.go">
-    <configuration name="Knuta_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.BFS_test.go">
+    <configuration name="go build sellerManog.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
-      <working_directory value="$PROJECT_DIR$/findSubstringInString/Knuta" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="algorithms" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/graphs/BFS/sellerMango/sellerManog.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BFS_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <working_directory value="$PROJECT_DIR$/graphs/BFS/BFS" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="algorithms" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/findSubstringInString/Knuta/Knuta_test.go" />
+      <filePath value="$PROJECT_DIR$/graphs/BFS/BFS/BFS_test.go" />
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="findMaxPrefix_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="graph_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
-      <working_directory value="$PROJECT_DIR$/findMaxLengthPrefix" />
+      <working_directory value="$PROJECT_DIR$/graphs/Graph" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="algorithms" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/findMaxLengthPrefix/findMaxPrefix_test.go" />
+      <filePath value="$PROJECT_DIR$/graphs/Graph/graph_test.go" />
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="findMinDistance_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="queue_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
-      <working_directory value="$PROJECT_DIR$/findSubstringInString/graphs/findMinDistance" />
+      <working_directory value="$PROJECT_DIR$/queue" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="algorithms" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/findSubstringInString/graphs/findMinDistance/findMinDistance_test.go" />
+      <filePath value="$PROJECT_DIR$/queue/queue_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sellerManog_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <working_directory value="$PROJECT_DIR$/graphs/BFS/sellerMango" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="algorithms" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/graphs/BFS/sellerMango/sellerManog_test.go" />
       <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Knuta_test.go" />
-        <item itemvalue="Go Test.findMinDistance_test.go" />
-        <item itemvalue="Go Test.findMaxPrefix_test.go" />
+        <item itemvalue="Go Test.BFS_test.go" />
+        <item itemvalue="Go Test.graph_test.go" />
+        <item itemvalue="Go Test.sellerManog_test.go" />
+        <item itemvalue="Go Test.queue_test.go" />
+        <item itemvalue="Go Build.go build sellerManog.go" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bmh" />
-    <option name="LAST_COMMIT_MESSAGE" value="bmh" />
+    <MESSAGE value="algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="algorithms" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
